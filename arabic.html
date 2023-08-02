@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="shortcut icon" href="" type="image/png">
+
+        <!--=============== REMIXICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="assests/css/arabicfonts.css">
+
+        <title>Falcon Island</title>
+    </head>
+    <body>
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">FALCON ISLAND</a>
+                <a href="index.html" class="nav__arabic">English</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">الصفحة الرئيسية</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">تفاصيل</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#discover" class="nav__link">الإطلالات</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#place" class="nav__link">تاون هاوس</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">تواصل معنا</a>
+                        </li>
+                    </ul>
+
+                    <i class="ri-close-line nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-function-line"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <img src="assets/img/home6.jpg" alt="" class="home__img">
+
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <span class="home__data-subtitles"> امتلك تاون هاوس الخاص بك</span>
+                        <h1 class="home__data-titles">اكتشف  مميزات <br> <b>تاون هاوس<br> الأكثر جاذبية</b></h1>
+                        <a href="#discover" class="button">اكتشف</a>
+                    </div>
+
+                    <div class="home__social">
+
+                        <a href="https://www.whatsapp.com/" target="_blank" class="home__social-link">
+                            <i class="ri-whatsapp-fill"></i>
+                        </a>
+                        <a href="https://gmail.com/" target="_blank" class="home__social-link">
+                            <i class="ri-mail-fill" ></i>
+                        </a>
+                    </div>
+
+                    <div class="home__info">
+                        <div>
+                            <span class="home__info-title">اختر تاون هاوس الخاصة بك</span>
+                            <a href="#place" class="button button--flex button--link home__info-button">
+                                من هنا <i class="ri-arrow-right-line"></i>
+                            </a>
+                        </div>
+
+                        <div class="home__info-overlay">
+                            <img src="assets/img/home3.jpg" alt="" class="home__info-img">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">تفاصيل أكثر <br> عن تاون هاوس</h2>
+                        <p class="about__description">نعرض عليك تجربة حقيقية في قلب البحر، من حيث الابتعاد عن المدينة وإعادة الاتصال مع الطبيعة للاستجمام والاسترخاء في مجمع سكني متكامل محاط برمال الشواطئ الناعمة الخاصة والعامة، بالإضافة الى ملعب التنس. يمكنك اختيار المساحة المريحة لك من غرفتين ، ثلاثه وفلل مستقله على البحر من  أربع، إلى خمس غرف، بأسعار تبدأ من 1,200,000 درهم بدفعة أولى 15% من السعر
+                        </p>
+                        <a href="#place" class="button">احجز تاون هاوس الخاصة بك</a>
+                    </div>
+
+                    <div class="about__img">
+                        <div class="about__img-overlay">
+                            <img src="assets/img/about3.jpg" alt="" class="about__img-one">
+                        </div>
+
+                        <div class="about__img-overlay">
+                            <img src="assets/img/Al Hamra Village -007.jpg" alt="" class="about__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!--==================== DISCOVER ====================-->
+            <section class="discover section" id="discover">
+                <h2 class="section__title">اكتشف اطلالاتنا <br> الجذابة</h2>
+                
+                <div class="discover__container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <!--==================== DISCOVER 1 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/public beach.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">شواطئ عامة</h2>
+                            </div>
+                        </div>
+
+                        <!--==================== DISCOVER 2 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/Community pool.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">مسابح عامة</h2>
+                            </div>
+                        </div>
+
+                        <!--==================== DISCOVER 3 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/tennis court.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">ملاعب تينس</h2>
+                            </div>
+                        </div>
+
+                        <!--==================== DISCOVER 4 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/Community park.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">حدائق عامة</h2>
+                            </div>
+                        </div>
+                       <!--==================== DISCOVER 5 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/Private pool.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">مسابح خاصة</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="Masterplan">
+                <div class="masterplan_text">
+                    <h1>مخطط المشروع الرئيسي</h1>
+                </div>
+                    <div class="masterplan_img">
+                      <img class="image1" src="/assets/img/picturess/22.jpg" width="600" alt="Masterplan">
+                    </div>  
+            </section>
+
+            <!--==================== VIDEO ====================-->
+            <section class="video section">
+                <h2 class="section__title">فيديو</h2>
+                <div class="video__container container">
+                    <p class="video__description">اكتشف المزيد من خلال الفيديو الخاص بنا لأجمل وأروع منازل التاون هاوس لك ولعائلتك
+                    </p>
+                    <div class="video__content">
+                        <video id="video-file">
+                            <source src="assets/video/Falcon Arcticture_2.mp4" type="video/mp4">
+                        </video>
+                        <button class="button button--flex video__button" id="video-button">
+                            <i class="ri-play-line video__button-icon" id="video-icon"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            
+
+
+
+
+            <!-- <section class="bt">
+                <div class="btn_group">
+                  <button id="Townhouse">Townhouse</button>
+                  <button id="twoBR">2 BR Semi-Detached</button>
+                  <button id="trBR">3 BR Semi-Detached</button>
+                  <button id="fBR">4 BR Semi-Detached</button>
+                  <button id="fBRV">4 BR Villa</button>
+                  <button id="fiveBRV">5 BR Villa</button>
+                  <img id="imagev"/>
+                </div>
+                </section> -->
+
+                <section class="Masterplan1">
+                    <div class="masterplan_text1">
+                        <h1>مخطط المشروع وجولة ثلاثية الأبعاد</h1>
+                    </div>
+                        <div class="masterplan_img1">
+                          <img class="image1" src="/assets/img/picturess/Falcon Island Brochure-8.jpg" width="1500" alt="Masterplan">
+                        </div>  
+                </section>
+
+                <section class="video_section">
+                    <iframe class="frame" src="https://storage.net-fs.com/hosting/5993079/22/">
+    
+    
+                    </iframe>
+                </section>
+
+
+                <section class="bt">
+                    <div class="btn_group">
+                        <nav id="nav1">
+
+                        
+                            <ul class="ul1"> 
+                              <li id="Townhouse"> Townhouse </li> 
+                              <li id="twoBR">2 BR Semi-Detached</li> 
+                              <li id="trBR">3 BR Semi-Detached</li> 
+                              <li id="fBR">4 BR Semi-Detached</li> 
+                              <li id="fBRV">4 BR Villa</li> 
+                              <li id="fiveBRV">5 BR Villa</li> 
+                            </ul>
+
+
+                          </nav>
+                      <img id="imagev"/ src="/assets/img/picturess/Touwnhouse.jpg">
+                    </div>
+                    </section>
+
+
+
+
+            <!--==================== PLACES ====================-->
+            <section class="place section" id="place">
+                <h2 class="section__title">اختر تاون هاوس المريح لك ولعائلتك</h2>
+                <div class="place__container container grid">
+                    <!--==================== PLACES CARD 1 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/55.jpg" alt="" class="place__img">
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <span class="place__rating-number"></span>
+                            </span>
+                            <div class="place__data">
+                                <h3 class="place__title">غرفتين</h3>
+                                <span class="place__subtitle"></span>
+                                <span class="place__price"></span>
+                            </div>
+                        </div>
+                        <a class="button button--flex place__button" href="#contact">
+                            <i class="ri-arrow-right-line"></i></a>
+                    </div>
+                    <!--==================== PLACES CARD 2 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/3.jpg" alt="" class="place__img">  
+                        <div class="place__content">
+                            <span class="place__rating">
+                   
+                                <span class="place__rating-number"></span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">ثلاث </h3>
+                                <span class="place__subtitle">غرف</span>
+                                <span class="place__price"></span>
+                            </div>
+                        </div>
+                        <a class="button button--flex place__button" href="#contact">
+                            <i class="ri-arrow-right-line"></i></a>
+                    </div>
+                    <!--==================== PLACES CARD 3 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/5.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                             
+                                <span class="place__rating-number"></span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">اربع</h3>
+                                <span class="place__subtitle">غرف</span>
+                                <span class="place__price"></span>
+                            </div>
+                        </div>
+                        <a class="button button--flex place__button" href="#contact">
+                            <i class="ri-arrow-right-line"></i></a>
+                    </div>
+
+                    <!--==================== PLACES CARD 4 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/6.jpg" alt="" class="place__img">
+                        <div class="place__content">
+                            <span class="place__rating">
+                          
+                                <span class="place__rating-number"></span>
+                            </span>
+                            <div class="place__data">
+                                <h3 class="place__title">خمس</h3>
+                                <span class="place__subtitle">غرف</span>
+                                <span class="place__price"></span>
+                            </div>
+                        </div>
+                        <a class="button button--flex place__button" href="#contact">
+                            <i class="ri-arrow-right-line"></i></a>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== Contact ====================-->
+            <section class="subscribe section" id="contact">
+                <div class="subscribe__bg">
+                    <div class="subscribe__container container">
+                        <h2 class="section__title subscribe__title">لا تتردد<br> في تواصل معنا</h2>
+                        <p class="subscribe__description">املأ النموذج ببياناتك وسنتصل بك قريبًا
+                        </p>
+                                <form action="https://formsubmit.co/bf6e918f57a3ae2cecda6d262003ea2d" method="POST">
+                                    <input type="hidden" name="_captcha" value="false">
+                                       <div class="subscribe__form">
+                                <div class="row">
+                                   <div class="col-md-12 ">
+                                      <input class="contactus" placeholder="الإسم الثلاثي" type="type" name="Name"> 
+                                   </div>
+                                   <div class="col-md-12">
+                                      <input class="contactus" placeholder="البريد الإلكتروني" type="type" name="Email"> 
+                                   </div>
+                                   <div class="col-md-12">
+                                      <input class="contactus" placeholder="رقم الهاتف" type="type" name="Phone Number">                          
+                                   </div>
+                                   <div class="col-md-12">
+                                      <select class="room">
+                                         <option disabled selected>بماذا انت مهتم؟</option>
+                                        <option value="Two room">غرفتين</option>
+                                        <option value="Three room">ثلاث غرف</option>
+                                        <option value="Four room">اربع غرف</option>
+                                        <option value="Five room">خمس غرف</option>
+                                        </select>
+                                    </div>
+                                   <div class="col-md-12">
+                                      <input class="contactus" placeholder="رسالة" type="type" name="Message">   
+                                   </div>
+                                   <div class="col-md-12">
+                                      <button class="send_btn">ارسل</button>
+                                   </div>
+                                </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+         <!--========== SCROLL UP ==========-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line scrollup__icon"></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+        
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <a href="https://api.whatsapp.com/send?phone=971557197654&text=I%20would%20like%20to%20know%20more%20details%20about%20the%20project"
+                            class="float" target="_blank">
+        <i class="fa fa-whatsapp my-float"></i>
+        </a>
+    </body>
+</html>
