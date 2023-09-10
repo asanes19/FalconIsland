@@ -148,17 +148,17 @@ function view_pic(img_link){
     const img = document.getElementById("imagev")
     img.src = img_link
   }
-  const TH = "/assets/img/picturess/Touwnhouse.jpg"
+  const TH = "assets/img/picturess/Touwnhouse.jpg"
   
-  const twobdr = "/assets/img/picturess/2BR.jpg"
+  const twobdr = "assets/img/picturess/2BR.jpg"
 
-  const threebdr = "/assets/img/picturess/3BR.jpg"
+  const threebdr = "assets/img/picturess/3BR.jpg"
 
-  const fourbdr = "/assets/img/picturess/4BR-semi.jpg" 
+  const fourbdr = "assets/img/picturess/4BR-semi.jpg" 
 
-  const fourv = "/assets/img/picturess/4BR-villa.jpg"
+  const fourv = "assets/img/picturess/4BR-villa.jpg"
 
-  const fivev = "/assets/img/picturess/5BR.jpg"
+  const fivev = "assets/img/picturess/5BR.jpg"
 
 
   
