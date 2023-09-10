@@ -15,10 +15,10 @@
     <img src="Readme/whitelogo.png" alt="Logo" width="210" height="180">
   </a>
 
-  <h3 align="center">Sane Book Shop</h3>
+  <h3 align="center">Falcon island</h3>
 
   <p align="center">
-My First Year College Project - Sample Website
+My First Professional Project - Sample Website
     <br />
     <a href="https://github.com/asanes19/FalconIsland"><strong>Explore the docs »</strong></a>
     <br />
